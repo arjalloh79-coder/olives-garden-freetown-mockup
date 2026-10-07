@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Olive's Garden Beach Bar & Restaurant — Complimentary mockup</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<script>
+tailwind.config = {
+  theme: { extend: {
+    colors: { ink:"#0f172a", teal:"#0d9488", cream:"#f8fafc", gold:"#c9a227" },
+    fontFamily: { sans:["Inter","system-ui","sans-serif"] }
+  }}
+}
+</script>
+<style>
+  html { scroll-behavior:smooth; }
+  .overlay { background: linear-gradient(180deg, rgba(15,23,42,.55), rgba(15,23,42,.78)); }
+  dialog::backdrop { background: rgba(15,23,42,.55); }
+</style>
+</head>
+<body class="bg-cream text-ink font-sans antialiased pb-20">
+<div class="bg-amber-50 text-amber-950 text-center text-xs sm:text-sm px-4 py-2 border-b border-amber-200">
+  Complimentary mockup by Al-Falah Marketing — nothing is live under your name. / Maquette offerte — rien n’est en ligne sous votre nom.
+</div>
+<header class="sticky top-0 z-40 bg-white/85 backdrop-blur border-b border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+    <a href="#top" class="font-extrabold tracking-tight text-lg">Olive's Garden</a>
+    <nav class="hidden md:flex items-center gap-5 text-sm font-medium text-slate-600">
+      <a href="#menu" data-en="Menu" data-fr="Carte">Menu</a>
+      <a href="#gallery" data-en="Gallery" data-fr="Galerie">Gallery</a>
+      <a href="#visit" data-en="Visit" data-fr="Visite">Visit</a>
+      <a href="#contact" data-en="Contact" data-fr="Contact">Contact</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <button id="lang" class="text-xs font-semibold border border-slate-300 rounded-full px-3 py-1">FR</button>
+      <a href="https://wa.me/23276457613" class="bg-teal text-white text-sm font-semibold rounded-full px-4 py-2" data-en="WhatsApp" data-fr="WhatsApp">WhatsApp</a>
+    </div>
+  </div>
+</header>
+<section id="top" class="relative min-h-[78vh] flex items-end">
+  <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Lumley Beach" class="absolute inset-0 w-full h-full object-cover" />
+  <div class="overlay absolute inset-0"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 pb-12 pt-24 text-white">
+    <p class="text-gold font-semibold tracking-widest text-xs uppercase mb-3">Lumley Beach Road · Freetown</p>
+    <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight max-w-3xl" data-en="Beach plates, cold drinks, Thursday reggae." data-fr="Assiettes de plage, boissons fraîches, reggae le jeudi.">Beach plates, cold drinks, Thursday reggae.</h1>
+    <p class="mt-4 max-w-xl text-slate-100 text-lg" data-en="In the center of Aberdeen / Lumley Beach. A table for lunch, a snack, or the band." data-fr="Au centre d’Aberdeen / Lumley Beach. Une table, un snack, ou le groupe.">In the center of Aberdeen / Lumley Beach. A table for lunch, a snack, or the band.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="https://wa.me/23276457613" class="bg-teal hover:bg-teal-700 text-white font-semibold rounded-xl px-5 py-3" data-en="Message on WhatsApp" data-fr="Écrire sur WhatsApp">Message on WhatsApp</a>
+      <a href="tel:+23276457613" class="bg-white/10 border border-white/40 text-white font-semibold rounded-xl px-5 py-3" data-en="Call +232 76 457613" data-fr="Appeler +232 76 457613">Call +232 76 457613</a>
+    </div>
+  </div>
+</section>
+<div class="bg-ink text-white">
+  <div class="max-w-6xl mx-auto px-4 py-3 grid sm:grid-cols-3 gap-2 text-xs sm:text-sm">
+    <p><span class="text-gold">Laurel</span> · USD · +1 240 280 6137</p>
+    <p><span class="text-gold">Coyah</span> · GNF · Orange Money · +224 611 351 302</p>
+    <p><span class="text-gold">Freetown</span> · SLE · +232 via studio line</p>
+  </div>
+</div>
+<main class="max-w-6xl mx-auto px-4">
+  <section id="menu" class="py-14">
+    <h2 class="text-3xl font-extrabold" data-en="From the grill" data-fr="Du grill">From the grill</h2>
+    <p class="text-slate-600 mt-2 max-w-2xl" data-en="Prices shown are starting points for the mockup. Confirm today’s menu on WhatsApp." data-fr="Les prix sont indicatifs pour la maquette. Confirmez la carte du jour sur WhatsApp.">Prices shown are starting points for the mockup. Confirm today’s menu on WhatsApp.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+      <button data-card data-title="Seafood plate" data-body="Catch of the day by the beach. Ask WhatsApp for today’s fish." data-img="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80" class="text-left bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md">
+          <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80" alt="Seafood plate" class="h-40 w-full object-cover" />
+          <div class="p-4"><p class="font-bold">Seafood plate</p><p class="text-sm text-slate-600 mt-1">Catch of the day by the beach. Ask WhatsApp for today’s fish.</p><p class="text-teal font-semibold text-sm mt-2">Ask today’s price</p></div>
+        </button>\n<button data-card data-title="Grill & snacks" data-body="Quick plates for a beach afternoon." data-img="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80" class="text-left bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md">
+          <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80" alt="Grill & snacks" class="h-40 w-full object-cover" />
+          <div class="p-4"><p class="font-bold">Grill & snacks</p><p class="text-sm text-slate-600 mt-1">Quick plates for a beach afternoon.</p><p class="text-teal font-semibold text-sm mt-2">Ask today’s price</p></div>
+        </button>\n<button data-card data-title="Thursday band" data-body="Live reggae. Reserve a table before sunset." data-img="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80" class="text-left bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md">
+          <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80" alt="Thursday band" class="h-40 w-full object-cover" />
+          <div class="p-4"><p class="font-bold">Thursday band</p><p class="text-sm text-slate-600 mt-1">Live reggae. Reserve a table before sunset.</p><p class="text-teal font-semibold text-sm mt-2">Message to reserve</p></div>
+        </button>
+    </div>
+  </section>
+  <section id="gallery" class="py-6">
+    <h2 class="text-3xl font-extrabold" data-en="Ambiance" data-fr="Ambiance">Ambiance</h2>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-6">
+      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80" alt="Ambiance" class="h-36 sm:h-44 w-full object-cover rounded-2xl" />\n<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Ambiance" class="h-36 sm:h-44 w-full object-cover rounded-2xl" />\n<img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80" alt="Ambiance" class="h-36 sm:h-44 w-full object-cover rounded-2xl" />\n<img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=1200&q=80" alt="Ambiance" class="h-36 sm:h-44 w-full object-cover rounded-2xl" />
+    </div>
+    <p class="text-xs text-slate-500 mt-3">Photos are curated placeholders until the owner shares real shots. / Photos d’ambiance en attendant vos clichés.</p>
+  </section>
+  <section class="py-12">
+    <div class="rounded-2xl bg-white shadow-sm border border-slate-200 p-6 sm:p-8">
+      <p class="text-xs uppercase tracking-widest text-teal font-semibold">Al-Falah Marketing</p>
+      <h2 class="text-2xl font-extrabold mt-1" data-en="What a simple page already does" data-fr="Ce qu’une page simple change déjà">What a simple page already does</h2>
+      <div class="grid sm:grid-cols-3 gap-4 mt-6 text-sm">
+        <div class="rounded-xl bg-cream p-4"><p class="text-2xl font-extrabold text-teal">Acile Coffee</p><p class="mt-1 text-slate-600" data-en="Clear hours and WhatsApp orders, fewer “are you open?” calls." data-fr="Horaires clairs et commandes WhatsApp, moins d’appels « vous êtes ouverts ? ».">Clear hours and WhatsApp orders, fewer “are you open?” calls.</p></div>
+        <div class="rounded-xl bg-cream p-4"><p class="text-2xl font-extrabold text-teal">Shawarma Sam</p><p class="mt-1 text-slate-600" data-en="Menu photos that travel better than a Facebook album." data-fr="Photos de carte qui voyagent mieux qu’un album Facebook.">Menu photos that travel better than a Facebook album.</p></div>
+        <div class="rounded-xl bg-cream p-4"><p class="text-2xl font-extrabold text-teal">1 page</p><p class="mt-1 text-slate-600" data-en="Mobile-first, bilingual, ready to host under your own name." data-fr="Mobile d’abord, bilingue, prête à héberger sous votre nom.">Mobile-first, bilingual, ready to host under your own name.</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="visit" class="py-4 grid lg:grid-cols-2 gap-6">
+    <div class="rounded-2xl bg-ink text-white p-6">
+      <h2 class="text-2xl font-extrabold" data-en="Visit" data-fr="Nous trouver">Visit</h2>
+      <p class="mt-3 text-slate-200">Lumley Beach Road, Freetown, Sierra Leone</p>
+      <p class="mt-2">Daily from late morning; live reggae band Thursdays (Facebook)</p>
+      <p class="mt-2">+232 76 457613</p>
+      <a href="https://wa.me/23276457613" class="inline-block mt-5 bg-teal rounded-xl px-4 py-2 font-semibold" data-en="Ask for today’s prices" data-fr="Demander les prix du jour">Ask for today’s prices</a>
+    </div>
+    <form id="lead" class="rounded-2xl bg-white border border-slate-200 p-6 shadow-sm">
+      <h2 class="text-2xl font-extrabold" data-en="Request a table or order" data-fr="Réserver ou commander">Request a table or order</h2>
+      <label class="block text-sm mt-4" data-en="Name" data-fr="Nom">Name</label>
+      <input id="nm" class="mt-1 w-full border rounded-xl px-3 py-2" />
+      <label class="block text-sm mt-3" data-en="What do you need?" data-fr="Votre besoin">What do you need?</label>
+      <textarea id="msg" class="mt-1 w-full border rounded-xl px-3 py-2" rows="3"></textarea>
+      <button class="mt-4 bg-ink text-white rounded-xl px-4 py-2 font-semibold" type="submit" data-en="Open WhatsApp" data-fr="Ouvrir WhatsApp">Open WhatsApp</button>
+    </form>
+  </section>
+  <section id="contact" class="py-10 text-sm text-slate-600">
+    <h2 class="text-xl font-bold text-ink" data-en="Privacy & terms" data-fr="Confidentialité et conditions">Privacy & terms</h2>
+    <p class="mt-2" id="privacy" data-en="This page is a review mockup. It does not collect or store form data. Messages open in WhatsApp." data-fr="Cette page est une maquette. Elle ne stocke aucune donnée. Le formulaire ouvre WhatsApp.">This page is a review mockup. It does not collect or store form data. Messages open in WhatsApp.</p>
+    <p class="mt-2" id="terms" data-en="Not an official site of Olive's Garden Beach Bar & Restaurant. Prepared by Al-Falah Marketing for review only." data-fr="Ce n’est pas le site officiel de Olive's Garden Beach Bar & Restaurant. Préparé par Al-Falah Marketing pour relecture uniquement.">Not an official site of Olive's Garden Beach Bar & Restaurant. Prepared by Al-Falah Marketing for review only.</p>
+  </section>
+</main>
+<footer class="bg-ink text-slate-300 text-sm">
+  <div class="max-w-6xl mx-auto px-4 py-8 grid sm:grid-cols-2 gap-4">
+    <div>
+      <p class="text-white font-semibold">Al-Falah Marketing</p>
+      <p>8468 Winding Trail, Laurel, MD 20724</p>
+      <p>info@al-falahmarketing.com · +1 240 280 6137 · +224 611 351 302</p>
+      <p><a class="underline" href="https://al-falahmarketing.com">al-falahmarketing.com</a></p>
+    </div>
+    <p>Mockup credit: Al-Falah Marketing, founded 2023. Laurel · Coyah · Freetown. Nothing here is live under the business name.</p>
+  </div>
+</footer>
+<div class="fixed bottom-0 inset-x-0 z-40 bg-white border-t border-slate-200 grid grid-cols-3 md:hidden">
+  <a href="tel:+23276457613" class="text-center py-3 text-sm font-semibold" data-en="Call" data-fr="Appeler">Call</a>
+  <a href="https://wa.me/23276457613" class="text-center py-3 text-sm font-semibold text-teal" data-en="WhatsApp" data-fr="WhatsApp">WhatsApp</a>
+  <a href="#menu" class="text-center py-3 text-sm font-semibold" data-en="Menu" data-fr="Carte">Menu</a>
+</div>
+<dialog id="modal" class="rounded-2xl p-0 max-w-md w-[92%]">
+  <div class="p-5">
+    <img id="mimg" class="w-full h-40 object-cover rounded-xl" alt="" />
+    <h3 id="mtitle" class="text-xl font-bold mt-3"></h3>
+    <p id="mbody" class="text-slate-600 mt-2 text-sm"></p>
+    <button id="mclose" class="mt-4 text-sm font-semibold">Close</button>
+  </div>
+</dialog>
+<script>
+const dict = {};
+document.querySelectorAll("[data-en]").forEach(el => { dict[el] = true; });
+let fr = false;
+document.getElementById("lang").onclick = () => {
+  fr = !fr;
+  document.getElementById("lang").textContent = fr ? "EN" : "FR";
+  document.querySelectorAll("[data-en]").forEach(el => { el.textContent = fr ? el.dataset.fr : el.dataset.en; });
+};
+document.querySelectorAll("[data-card]").forEach(btn => {
+  btn.onclick = () => {
+    const d = document.getElementById("modal");
+    document.getElementById("mtitle").textContent = btn.dataset.title;
+    document.getElementById("mbody").textContent = btn.dataset.body;
+    document.getElementById("mimg").src = btn.dataset.img;
+    d.showModal();
+  };
+});
+document.getElementById("mclose").onclick = () => document.getElementById("modal").close();
+document.getElementById("lead").onsubmit = (e) => {
+  e.preventDefault();
+  const t = encodeURIComponent((document.getElementById("nm").value || "Bonjour") + " — " + (document.getElementById("msg").value || "Je souhaite commander / réserver."));
+  window.open("https://wa.me/23276457613?text=" + t, "_blank");
+};
+</script>
+</body>
+</html>
